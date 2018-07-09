@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+}
+ul{
+    list-style-type: none;
+    margin:30;
+    padding:0;
+    overflow:hidden;
+    font-family:fantasy;
+    background-color:black;
+}
+li{
+    float:left;
+}
+li a{
+    float:center;
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    padding:14px;
+    color:white;
+}
+@keyframes animation{
+    0%{opacity: 0; filter: alpha(opacity=0);}
+    100%{opacity: 100; filter: aplha(opacity=100);}
+}
